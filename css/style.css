@@ -1,0 +1,83 @@
+/* css reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-seif;
+}
+
+/* start page style */
+body{
+    background-color: #f4f3f3;
+}
+/* end page style */
+
+/* start global style */
+.tag{
+    padding: 12px 18px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.editorial{
+    background-color: rgb(69, 171, 233);
+}
+
+.goals{
+    background-color: rgb(158, 114, 228);
+}
+
+.recruiting{
+    background-color: rgb(100, 192, 169);
+}
+
+.mobile{
+    background-color: rgb(242, 158, 51);
+}
+
+.website{
+    background-color: rgb(215, 99, 161);
+}
+
+.sales{
+    background-color: rgb(178, 201, 37);
+}
+
+button{
+    padding: 12px 18px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+/* end global style */
+
+/* start header */
+header{
+    background-color: #fff;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+}
+
+header h1{
+    display: inline;
+    vertical-align: middle;
+}
+
+header img{
+    vertical-align: middle;
+}
+/* end header */
+
+/* start main content */
+main{
+    margin: auto;
+    width: 900px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+}
+
+
+/* end main content */
