@@ -14,10 +14,12 @@ body{
 
 /* start global style */
 .tag{
-    padding: 12px 18px;
+    padding: 5px 8px;
     border-radius: 30px;
     color: #fff;
     font-weight: 500;
+    font-size: 10px;
+    vertical-align: middle;
 }
 
 .editorial{
@@ -45,9 +47,10 @@ body{
 }
 
 button{
-    padding: 12px 18px;
+    padding: 8px 12px;
     border-radius: 6px;
     font-weight: 500;
+    cursor: pointer;
 }
 /* end global style */
 
@@ -74,9 +77,85 @@ main{
     width: 900px;
     background-color: #fff;
     border-radius: 6px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 30px;
+}
+
+#section01{
+    padding: 15px 60px;
+    border-bottom: 2px solid #f4f3f3;
+}
+
+.btn-task{
+    border: 1px solid rgb(69, 171, 233);
+    background-color: rgb(69, 171, 233);
+    color: #fff;
+    margin-right: 5px;
+}
+
+.btn-section{
+    border: 1px solid rgb(197, 203, 207);
+    background-color: #fff;
+    color: rgb(197, 203, 207);
+}
+
+#section02{
+    padding: 35px 60px;
+}
+
+.box{
+    margin-bottom: 35px;
+}
+
+.box h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
+.box h2::before{
+    content: '\25BC';
+    font-size: 9px;
+    margin-right: 6px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
+.box li{
+    list-style: none;
+    margin-bottom: 24px;
+    font-size: 16px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.box .cancel::before{
+    content: '\10102';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid rgb(234, 69, 59);
+    border-radius: 50%;
+    color: rgb(234, 69, 59);
+    font-size: 13px;
+    line-height: 11px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.box .check::before{
+    content: '\2713';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid rgb(107, 194, 172);
+    border-radius: 50%;
+    color: rgb(107, 194, 172);
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 6px;
 }
 
 
